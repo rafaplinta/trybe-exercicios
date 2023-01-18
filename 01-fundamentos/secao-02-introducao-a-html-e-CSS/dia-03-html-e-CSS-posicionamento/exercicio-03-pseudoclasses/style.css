@@ -1,0 +1,16 @@
+h1, p, ol {
+    text-align: center;
+}
+
+li:hover {
+    background-color: palevioletred;
+}
+
+li:active {
+   font-family: monospace;
+}
+
+ul, ol {
+    list-style: none;
+}
+
