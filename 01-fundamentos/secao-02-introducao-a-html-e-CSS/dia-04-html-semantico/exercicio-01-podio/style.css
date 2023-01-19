@@ -13,6 +13,7 @@ header h1, main h3 {
     text-align: center;
     width: 200px;
     display: block;
+    margin: auto;
 }
 
 .second {
@@ -22,7 +23,7 @@ header h1, main h3 {
     text-align: center;
     width: 300px;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 0px;
    
 }
 
