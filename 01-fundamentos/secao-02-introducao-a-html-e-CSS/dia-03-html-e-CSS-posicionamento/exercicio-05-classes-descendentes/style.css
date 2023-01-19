@@ -31,15 +31,34 @@ h1 h3 {
     color:red;
 }
 
-ul li:nth-of-type(-n+3) {
+#languages li:nth-of-type(-n+3) {
     color:blue;
 }
 
-ul li:nth-of-type("java*") {
-    color: aqua;
+.java {
+    background-color: pink;
 }
 
-ul li a:nth-of-type(1) {
-    background-color: 
+#allies li:hover {
+    font-weight: 700;
 }
 
+#allies li a[href*="stackoverflow"]:hover {
+    color: orange;
+}
+
+#allies li a[href*="w3schools"]:hover {
+    color: greenyellow;
+}
+
+#allies li a[href*="mozilla"]:hover {
+    color: black;
+}
+
+#allies li a[href*="devdocs"]:hover {
+    color: yellow;
+}
+
+#allies li a[href*="betrybe"]:hover {
+    color: green;
+}
