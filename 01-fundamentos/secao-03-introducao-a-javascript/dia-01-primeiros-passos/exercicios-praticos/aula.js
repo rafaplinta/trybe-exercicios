@@ -1,30 +1,26 @@
-// 1. Hora de fazermos em conjunto! 🏄‍♀️
-// Agora vamos ter alguns minutos para construir um algoritmo com a seguinte descrição:
-// Crie dois valores num1 e num2.
-// Se os valores forem iguais some os dois
-// Caso contrário multiplique num1 por num2.
-// Por ultimo exiba o valor final no console.
-// */
+// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+// let menuServices = menu[1];
 
-// let num1 = 10;
-// let num2 = 10;
+// console.log(menuServices);
 
-// if (num1 === num2) {
-//     console.log(num1 + num2);
-// } else {
-//     console.log(num1 * num2);
+// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+// let indexOfPortfolio = menu.indexOf('Portfólio')
+
+// console.log(indexOfPortfolio)
+
+// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+// menu.push('Contato');
+
+// console.log(menu);
+
+// let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+
+// for (let index = 0; index < groceryList.length; index += 1) {
+//   const element = groceryList[index];
+//   console.log(element);
 // }
 
-// 2.Utilize if/else para escrever um código que retorne o maior de dois números. 
-// Defina, no começo do seu código, duas constantes com os valores que serão comparados.
-
-const num1 = 20;
-const num2 = 20;
-
-if (num1 > num2) {
-    console.log("Número 1 é maior");
-} else if (num1 < num2) {
-    console.log("Número dois é maior");
-} else {
-    console.log("Os números são iguais!")
-}
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+    for (let name of names) {
+        console.log(name);
+    }
