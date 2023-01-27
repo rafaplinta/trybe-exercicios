@@ -1,5 +1,5 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let soma = 0;
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let soma = 0;
 
 // for (let index = 0; index < numbers.length; index += 1) {
 //     soma += numbers[index];
@@ -54,17 +54,13 @@ let soma = 0;
 //     console.log(array[index] / 2);
 //   };
 
-const n = 9;
+// const n = 9;
 
-let resultado = 100;
-for (let index = 0; index <= n; index += 1) {
-  resultado -= index;
-};
-console.log(resultado);
-
-
-
-
+// let resultado = 100;
+// for (let index = 0; index <= n; index += 1) {
+//   resultado -= index;
+// };
+// console.log(resultado);
 
 
 
